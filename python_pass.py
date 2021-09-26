@@ -10,5 +10,17 @@ Instructions:
 
 
 class StringOperations:
-    def reverse(self, *, to_be_reversed: str = None):
-        raise NotImplemented('This method need to be implemented')
+    # def reverse(self, *, to_be_reversed: str = None):
+    #     RETURN NotImplemented('This method need to be implemented')
+
+
+def reverse(str):
+    print(str)
+        return str[::-1]
+        
+class ReversedString(StringOperations):
+
+     name  = 'tseT'
+    result = reverse(name)
+    print(result)
+     
